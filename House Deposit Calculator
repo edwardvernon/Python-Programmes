@@ -1,0 +1,8 @@
+house_price = input('What is the price of the house you are looking to buy? ')
+answer = input('Is your credit good? ')
+low_deposit = float(house_price)*0.1
+high_deposit = float(house_price)*0.2
+if answer == 'yes':
+    print(f'Your required deposit is {low_deposit} GBP')
+else:
+    print(f'Your required deposit is {high_deposit} GBP')
